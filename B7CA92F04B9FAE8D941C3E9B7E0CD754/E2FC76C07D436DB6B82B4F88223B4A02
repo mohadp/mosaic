@@ -13920,7 +13920,7 @@ model:
             translation: "The formula subtracts the total cost from the total dollar\
               \ sales to calculate the profit."
     expression:
-      text: "Sum<UseLookupForAttributes= False>(([Total Dollar Sales]-[Total Cost])){~+}"
+      text: "Sum<UseLookupForAttributes=False>(([Total Dollar Sales]-[Total Cost])){~+}"
     formulaJoinType: "default"
     smartTotal: "decomposable_false"
     dataType:
@@ -14580,7 +14580,7 @@ model:
             translation: "This metric calculates the profit margin as a percentage\
               \ of profit over total dollar sales, without aggregation."
     expression:
-      text: "Profit/Sum<UseLookupForAttributes=False>([Total Dollar Sales]){~+}"
+      text: "Profit/ Sum<UseLookupForAttributes=False>([Total Dollar Sales]){~+}"
     formulaJoinType: "default"
     smartTotal: "decomposable_true"
     dataType:
@@ -15610,4 +15610,4 @@ model:
     - objectId: "C202F8E3F8461A434E614794C58411B9"
       subType: "attribute_smart"
       name: "Customer Birthdate (Year interval)"
-fingerprint: "e5670f3e043837231ef84063cb79c02458fea1205c38dfb1de5e0efd21359ca6"
+fingerprint: "4e0dc5cbbfc5497d00b4aeeece0677956d302fd35bc7063e68995d0a1d18fa08"
